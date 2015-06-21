@@ -18,3 +18,8 @@ To perform the task above, an R script called run_analysis.R is created by follo
 * Only  the mean and standard deviation for each measurement are extracted. 
 * A second, independent tidy data set "dataset2" is created with the average of each variable for each activity and each subject.
 
+If you've a Samsung data available in the current directory, just run:
+
+source('./run_analysis.R')
+run.analysis()
+
