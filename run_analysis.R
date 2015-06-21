@@ -106,3 +106,6 @@ colnames(dataset2)[-c(1:2)] <- paste(colnames(dataset2)[-c(1:2)], "_mean", sep="
 
 # Save tidy dataset2 into results folder
 saveResult(dataset2,"dataset2")
+
+#upload dataset as a txt file created with write.table() 
+write.table(dataset2,"dataset2.txt")
