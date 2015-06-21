@@ -13,8 +13,8 @@ The data for the project can be downloaded from the link below:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 To perform the task above, an R script called run_analysis.R is created by following the procedures below: 
-* Merges the training and the test sets to create one data set. The zip files must be unzipped and tables are created by applying cols. Train and test data are merged by using id. 
-* Te merged data set are processed by extracting the relevant variables, adding descriptive activity names, etc. "dataset1" is saved.
+* The training and the test sets are merged to create one data set. The zip files are unzipped and tables are created by applying cols. Train and test data are merged by using id. 
+* The merged data set are processed by extracting the relevant variables, adding descriptive activity names, etc. "dataset1" is saved.
 * Only  the mean and standard deviation for each measurement are extracted. 
 * A second, independent tidy data set "dataset2" is created with the average of each variable for each activity and each subject.
 
